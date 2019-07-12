@@ -1,27 +1,49 @@
 body {
-    background-color: rgb(255, 255, 255);
+   background-image: linear-gradient(to bottom, rgb(44, 40, 40), rgb(0, 0, 0));
     margin: auto;
     width: 90%;
     
 }
 
 .nome{
-    background-color: rgb(236, 200, 35);
-    color: rgb(179, 69, 42);
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(201, 255, 194));
+    color: rgb(0, 0, 0);
     font-size: 30px;
     text-align: center;
+    height: 50px;
+    padding-top: 20px;
 }
 
+
+
 .titulos{
-    background-color: rgb(255, 141, 133);
-    color: rgb(255, 21, 21);
-    border-bottom: 3px solid rgb(238, 66, 66);
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(201, 255, 194));
+    color: rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(51, 255, 0);
     font-size: 25px;
     text-align: left;
+    height: 40px;
+    padding-top: 10px;
 }
 
 span{
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(82, 79, 79);
+    color: rgb(182, 179, 179);
     font-size: 12px;
+}
+
+
+strong {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration:none;
+    color: rgb(30, 255, 0);
+    font-weight: bold;
+     
+}
+
+ul {
+    color: rgb(255, 255, 255); 
 }
