@@ -6,7 +6,7 @@ body {
 }
 
 .nome{
-    background-image: linear-gradient(to bottom, rgb(172, 250, 185), rgb(222, 235, 221));
+    background-image: linear-gradient(to bottom, rgb(73, 248, 102), rgb(222, 235, 221));
     color: rgb(54, 54, 54);
     font-size: 30px;
     text-align: center;
@@ -14,11 +14,11 @@ body {
     padding-top: 10px;
 }
 
-.centerAvatar{
+.avatar{
     text-align: center;
 
 }
-.avatar {
+.imgAvatar {
     border: 1px solid rgb(172, 250, 185);
     border-radius: 10px;
 }
