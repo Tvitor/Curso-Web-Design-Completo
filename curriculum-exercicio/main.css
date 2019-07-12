@@ -1,13 +1,17 @@
 body {
-   background-image: linear-gradient(to bottom, rgb(56, 50, 50), rgb(27, 13, 13));
+   background-image: url('images/imagem4k.jpg');
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   /* background-position: right bottom; */
     margin: auto;
     width: 90%;
     
 }
 
 .nome{
-    background-image: linear-gradient(to bottom, rgb(73, 248, 102), rgb(222, 235, 221));
-    color: rgb(54, 54, 54);
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(239, 255, 239));
+    color: rgb(172, 172, 172);
     font-size: 30px;
     text-align: center;
     height: 50px;
@@ -24,8 +28,8 @@ body {
 }
 
 .titulos{
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(222, 235, 221));
-    color: rgb(54, 54, 54);
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(239, 255, 239));
+    color: rgb(150, 146, 146);
     border-bottom: 4px solid rgb(192, 255, 176);
     font-size: 25px;
     text-align: left;
