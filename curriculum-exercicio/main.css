@@ -1,5 +1,7 @@
 body {
     background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 50%;
     
 }
 
@@ -23,4 +25,3 @@ span{
     color: rgb(82, 79, 79);
     font-size: 12px;
 }
-
