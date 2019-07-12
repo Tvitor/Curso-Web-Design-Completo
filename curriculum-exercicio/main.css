@@ -1,25 +1,32 @@
 body {
-   background-image: linear-gradient(to bottom, rgb(44, 40, 40), rgb(0, 0, 0));
+   background-image: linear-gradient(to bottom, rgb(56, 50, 50), rgb(27, 13, 13));
     margin: auto;
     width: 90%;
     
 }
 
 .nome{
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(201, 255, 194));
-    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom, rgb(73, 248, 102), rgb(222, 235, 221));
+    color: rgb(54, 54, 54);
     font-size: 30px;
     text-align: center;
     height: 50px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
+.avatar{
+    text-align: center;
 
+}
+.imgAvatar {
+    border: 1px solid rgb(172, 250, 185);
+    border-radius: 10px;
+}
 
 .titulos{
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(201, 255, 194));
-    color: rgb(0, 0, 0);
-    border-bottom: 4px solid rgb(51, 255, 0);
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(222, 235, 221));
+    color: rgb(54, 54, 54);
+    border-bottom: 4px solid rgb(192, 255, 176);
     font-size: 25px;
     text-align: left;
     height: 40px;
@@ -27,7 +34,7 @@ body {
 }
 
 span{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     color: rgb(182, 179, 179);
     font-size: 12px;
 }
@@ -39,11 +46,17 @@ strong {
 
 a {
     text-decoration:none;
-    color: rgb(30, 255, 0);
+    color: rgb(196, 255, 188);
     font-weight: bold;
      
 }
 
 ul {
     color: rgb(255, 255, 255); 
+    padding-left: 0;
+}
+
+li{
+    list-style-position: inside;
+    padding-left: 0;
 }
