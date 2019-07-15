@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(228, 228, 228));
+    margin: 0;
+    padding: 0;
+}
+
+.header-wrapper {
+    background-image: url(imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+}
